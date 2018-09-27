@@ -1,0 +1,123 @@
+body {
+	text-align: center;
+	padding: 15px;
+}
+
+header {
+	padding-left: 80px;
+	padding-top: 50px;
+	text-align: left;
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	height: 350px;
+}
+
+header h1 {
+	color: #fff;
+	font-size: 3.0rem;
+}
+
+header button {
+	background-color: teal;
+	color: #fff;
+	border: none;
+	padding: 12px 17px;
+
+}
+
+.main {
+	padding: 15px 0;
+}
+.main div {
+	display: inline-block;
+	width: 30%
+}
+
+.main img {
+	width: 100%;
+	max-width: 400px;
+	border-radius: 10px;
+}
+
+.main a {
+	font-size: 1.3rem;
+	color: #000;
+	text-decoration: none;
+}
+
+.main h3 {
+	transition: ease-in-out .5s;
+}
+
+.main h3:hover {
+	transform: scale(1.25);
+}
+
+.main p {
+	width: 85%;
+	margin: 10px auto;
+	font-weight: bold;
+
+}
+
+.main button {
+	padding: 10px 15px;
+	border: none;
+	background-color: #ff3b38;
+	color: #fff;
+}
+
+footer {
+	text-align: center;
+	background-color: #c9c7c6;
+	padding: 15px;
+}
+
+footer textarea {
+	display: block;
+	margin: 10px auto;
+	width: 45%;
+}
+
+@media(max-width: 920px) {
+	.main div {
+		width: 45%;
+	}
+}
+
+@media(max-width: 700px) {
+	header {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	header h1 {
+		font-size: 2rem;
+	}
+
+	footer textarea {
+		width: 70%;
+	}
+}
+
+@media(max-width: 550px) {
+	.main div {
+		width: 90%;
+	}
+
+	header h1 {
+		font-size: 1.75rem;
+	}
+}
+
+@media(max-width: 450px) {
+	footer textarea {
+		width: 95%;
+	}
+
+	footer h3 {
+		font-size: 0.82rem;
+	}
+}
